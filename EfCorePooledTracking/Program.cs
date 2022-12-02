@@ -37,8 +37,6 @@ else
     Console.WriteLine($"TrackAll in EFCore 7. [trackingOne: {trackingOne}, trackingTwo: {trackingTwo}]");
 }
 
-await host.RunAsync();
-
 public class BlogDbContext : DbContext
 {
     public BlogDbContext(DbContextOptions<BlogDbContext> options)
